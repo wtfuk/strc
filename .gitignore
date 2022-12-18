@@ -11,5 +11,25 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Directory for emacs temporary files
+.emacs.desktop
+.emacs.desktop.lock
+
+# for .DS_Store files
+.DS_Store
+
+# for vscode
+.vscode
+
+# for vim
+*.swp
+
+# for goland
+.idea
+
+# for bin, src, pkg folder
+bin
+src
+pkg
+
+
