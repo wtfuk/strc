@@ -40,9 +40,23 @@ The ToTitleCase function converts a string to title case.
 ToTitleCase(str string) string
 ```
 
+### PadSpaceToRight
+
+The PadSpaceToRight function pads spaces to the right of the given string.
+
+```go
+PadSpaceToRight(str string, len int) string
+```
+
 ## Examples
 
-For examples of how to use the strc package, see the Usage sectionf or now, more examples will be added later.
+`
+strc.ToTitleCase("this does title cases") // output: This Does Title Cases
+`
+
+`
+strc.PadSpaceToRight("123", 6) // output: This will add 3 spaces to the right of "123"
+`
 
 ## License
 
